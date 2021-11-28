@@ -44,7 +44,7 @@ public class CartController extends HttpServlet {
 			switch(action) {
 				case "/addcart": addToCart(request, response); break;
 				case "/delete": deleteFromCart(request, response); break;
-				case "update": updateCart(request, response); break;
+				case "/update": updateCart(request, response); break;
         default:
            break;
 			}
